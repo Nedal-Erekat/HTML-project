@@ -1,9 +1,9 @@
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
-//var Massege = prompt('what is your age?');
+var Massege = prompt('what is your age?');
 //var q=confirm("confairem the information");
-//var Name = prompt('what is your Name?');
+var Name = prompt('what is your Name?');
 if (Massege => 18) {
  greeting = 'Adult!';
  } else if (Massege < 18) {
