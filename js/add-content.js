@@ -18,7 +18,7 @@ var MovieType= function(){
     var choosen = prompt('What kind of movies would like to watch? Action,thrilling or romantic');
     }
     var numMovs = prompt("How many?")
-    var Best;
+    var Best='';
     for (var i=0;i<numMovs;i++){
         console.log(numMovs);
     if (choosen === 'Action'){
