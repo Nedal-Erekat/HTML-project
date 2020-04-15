@@ -12,13 +12,13 @@ if (Massege => 18) {
 document.write('<h3>'+greeting+'</h3>');
 document.write('<h1>'+'Hello'+ Name+'</h1>');
 document.write('<h4>'+today+'</h4>');*/
-
+var Best='';
 var MovieType= function(){
     while (choosen !== 'Action' && choosen !== 'trilling' && choosen !== 'romantic'){
     var choosen = prompt('What kind of movies would like to watch? Action,thrilling or romantic');
     }
     var numMovs = prompt("How many?")
-    var Best='';
+    
     for (var i=0;i<numMovs;i++){
         console.log(numMovs);
     if (choosen === 'Action'){
